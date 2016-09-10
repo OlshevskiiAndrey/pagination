@@ -1,1 +1,33 @@
+.container {
+    margin-top: 20px;
+}
 
+.pagination {
+    display: inline-block;
+}
+
+.pagination:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pagination li {
+    cursor: pointer;
+}
+
+.pagination-wrap {
+    text-align: center;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.glyphicon-search {
+    top: 0;
+}
+
+.input-group {
+    width: 48%;
+}
